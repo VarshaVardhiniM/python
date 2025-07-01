@@ -60,8 +60,8 @@ for i in a:
 print(d)"""
 
 a=[1,1,2,3,4,5,2,3,6,7,8]
-max=a[0]
+min=a[0]
 for i in a:
-    if(i>max):
-        max=i
-print(max)
+    if(i<min):
+        min=i
+print(min)
